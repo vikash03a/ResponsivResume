@@ -1,0 +1,90 @@
+.main-content {
+  width: 90%;
+  min-height: 1000px;
+  display: grid;
+  grid-template: 1fr / 300px 700px;
+}
+.left-section {
+  background-color: #242531;
+}
+.right-section {
+  background-color: #f7f7f7;
+}
+.left-content {
+  padding: 1rem;
+}
+.profile-image img {
+  display: block;
+  margin: auto;
+  border: 5px white solid;
+  border-radius: 30%;
+  width: 60%;
+}
+.name {
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+
+  letter-spacing: 0.02px;
+  padding: 0.8rem;
+  color: #fff;
+}
+.designation {
+  font-size: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 0.5rem;
+  color: #fff;
+}
+.description {
+  font-size: 0.75rem;
+  text-align: center;
+  padding: 1rem;
+  color: #fff;
+}
+.social-media {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.social-media li {
+  list-style: none;
+}
+.skills .skills-title {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  padding: 1rem 0.5rem 1rem 0.5rem;
+}
+.skill-name {
+  font-size: 0.65rem;
+  font-weight: 0.65rem;
+  text-align: left;
+  color: #fff;
+  padding-bottom: 0.5rem;
+}
+.skills .progress-bar {
+  border: 1px white solid;
+  height: 4px;
+  background-color: white;
+}
+.right-main-content {
+  padding: 2rem 3rem 2rem 3rem;
+}
+.right-title {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-weight: 700;
+  padding: 0.5rem;
+  letter-spacing: 1px;
+}
+@media (max-width: 674px) {
+  .main-content {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 90%;
+    min-height: 1000px;
+  }
+}
